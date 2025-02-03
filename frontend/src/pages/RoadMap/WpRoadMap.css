@@ -1,0 +1,244 @@
+/* Global styles */
+
+  
+  /* Container */
+  
+  
+  /* Header */
+  .title-rmap {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0078d4;
+  }
+  
+  /* Goals Section */
+  /* Goal container styling */
+.goal-container {
+    padding: 1.5rem 2rem;
+    background-color: #f9fafb; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    margin: 60px auto;
+  }
+  
+  /* Title styling */
+  .goal-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  /* Goal list styling */
+  .goal-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Goal item styling */
+  .goal-item {
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect for goal items */
+  .goal-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Goal text styling */
+  .goal-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  /* No goals message styling */
+  .no-goals-message {
+    font-size: 1rem;
+    color: #888;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .bthdevt{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* Button */
+  .generate-btn-rmap {
+ 
+    padding: 12px;
+    font-size: 1.2rem;
+    background-color: #9333ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .generate-btn-rmap:hover {
+    background-color: #7a28b4;
+  }
+  
+  .generate-btn-rmap:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Error Message */
+  .error-rmap {
+    margin-top: 20px;
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  /* Roadmap Section */
+  .roadmap-container-rmap {
+    margin-top: 30px;
+  }
+  
+  .roadmap-title-rmap {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0078d4;
+  }
+  
+  /* Progress Bar */
+  .progress-bar-container-rmap {
+    margin-bottom: 20px;
+  }
+  
+  .progress-text-rmap {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+  }
+  .protbbhbh{
+    margin: 40px;
+  }
+  .progress-bar-rmap {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+  }
+  
+  .progress-fill-rmap {
+    height: 100%;
+    background-color: #9333ea;
+    border-radius: 10px;
+    transition: width 0.5s ease;
+  }
+  
+  /* Week Cards */
+  /* Week Card Styling */
+.week-card-rmap {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .week-card-rmap:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Week Header */
+  .week-header-rmap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .week-title-rmap {
+    margin: 0;
+  }
+  
+  /* Week Controls */
+  .week-controls-rmap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Checkbox Styling */
+  .week-checkbox-rmap {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    background-color: #fff;
+    transition: background-color 0.2s ease;
+  }
+  
+  .week-checkbox-rmap:checked {
+    background-color: #007bff;
+    border-color: #0056b3;
+  }
+  
+  /* Arrow Styling */
+  .arrow {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: #007bff;
+  }
+  
+  .arrow.expanded {
+    transform: rotate(180deg);
+  }
+  
+  /* Week Details */
+  .week-details-rmap {
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: #f1f3f5;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #555;
+    transition: max-height 0.3s ease;
+  }
+  
+  .week-details-rmap p {
+    margin: 5px 0;
+  }
+  
+  /* YouTube Link */
+  .youtube-link-rmap {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .youtube-link-rmap:hover {
+    text-decoration: underline;
+  }
+  
+  /* Adding an "Active" effect when checkbox is completed */
+  .week-card-rmap.completed {
+    background-color: #e0f7fa;
+    border-left: 5px solid #007bff;
+  }
+  

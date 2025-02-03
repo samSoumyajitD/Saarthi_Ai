@@ -1,0 +1,55 @@
+/* General Layout */
+.profile-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.profile-details {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+.profile-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.profile-value {
+  color: #777;
+  text-align: right;
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px;
+}
+
+.loading {
+  color: #ff9800;
+}
+
+.error {
+  color: #e53935;
+}

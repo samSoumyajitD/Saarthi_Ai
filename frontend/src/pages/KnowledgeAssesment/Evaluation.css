@@ -1,0 +1,80 @@
+/* Evaluation Page Styles */
+
+.container-eval {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  .card-eval {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header-eval {
+    padding: 1rem;
+    background-color: #f3f4f6;
+    text-align: center;
+  }
+  
+  .card-title-eval {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-content-eval {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .score-eval {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .progress-bar-eval {
+    margin-top: 1rem;
+    background-color: #e5e7eb;
+    border-radius: 8px;
+    height: 8px;
+    width: 100%;
+  }
+  
+  .progress-eval {
+    height: 100%;
+    background-color: #3b82f6;
+    border-radius: 8px;
+  }
+  
+  .progress-text-eval {
+    margin-top: 0.5rem;
+    font-size: 14px;
+    color: #6b7280;
+  }
+  
+  .card-footer-eval {
+    padding: 1rem;
+    background-color: #f3f4f6;
+    text-align: center;
+  }
+  
+  .btn-eval {
+    padding: 0.5rem 1.5rem;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .btn-eval:hover {
+    background-color: #2563eb;
+  }
+  

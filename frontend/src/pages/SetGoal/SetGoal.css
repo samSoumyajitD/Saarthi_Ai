@@ -1,0 +1,185 @@
+/* Header */
+.headerquiz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+  }
+  
+  .titlequiz {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .logoquiz {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  .iconquiz {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9333ea;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .iconquiz:hover {
+    background-color: #7a28b4;
+  }
+  
+  .iconquiz a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .scumq{
+    display: flex;
+    margin: 100px 0 0 0;
+    gap: 20px;
+  }
+  /* Sidebar */
+/* Sidebar */
+.sidebarq {
+    width: 25%;
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto; /* Makes the sidebar scrollable */
+  }
+  
+  /* Sidebar Button */
+  .sidebar-btn {
+    padding: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    text-align: left;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between the text and an optional icon */
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #9333ea;
+    color: white;
+  }
+  
+  .sidebar-btn.active {
+    background-color: #9333ea;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .sidebar-btn.active:hover {
+    background-color: #7a28b4; /* A darker purple for the active button hover */
+  }
+  
+  .sidebar-btn:focus {
+    outline: none; /* Removes the focus outline for a cleaner look */
+  }
+  
+  /* Optional: Add Icons */
+  .sidebar-btn::before {
+    /* Placeholder icon, replace with actual icons if needed */
+    font-size: 14px;
+  }
+  
+  /* Optional: Scroll styling */
+  .sidebarq::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .sidebarq::-webkit-scrollbar-thumb {
+    background-color: #9333ea;
+    border-radius: 4px;
+  }
+  
+  .sidebarq::-webkit-scrollbar-thumb:hover {
+    background-color: #7a28b4;
+  }
+  
+  
+  /* Quiz Container */
+  .quiz-containerq {
+    width: 75%;
+    max-width: none;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .h2q {
+   padding: 0 0 10px 0;
+  }
+  
+  .questionq {
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  .inputq, .selectq {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Navigation Buttons */
+  .navigationq {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  
+  .buttonq {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #9333ea;
+    color: white;
+  }
+  
+  .buttonq:hover {
+    background: #7a28b4;
+  }
+  
+  .messageq {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .successq {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .errorq {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  

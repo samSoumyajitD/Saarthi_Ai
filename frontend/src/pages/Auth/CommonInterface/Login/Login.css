@@ -1,0 +1,179 @@
+/* General styles */
+.signup-page{
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0');
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+.logo1{
+  display: flex;
+ padding: 40px 20px 0 30px;
+  margin: 0;
+}
+.error-text{
+  color: red;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0 10px 10px 10px;
+}
+.login-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent; /* Semi-transparent white background */
+  color: white;
+  font-family: Arial, sans-serif;
+  width: 330px;
+  padding:30px ;
+  border-radius: 8px;
+  box-shadow: 
+    rgba(0, 0, 0, 0.16) 0px 3px 6px, 
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  backdrop-filter: blur(0); /* Blur effect */
+  -webkit-backdrop-filter: blur(0); /* Safari support */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border for definition */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+.sc_login{
+  font-size: 20px;
+  font-weight: 550;
+  padding: 0 0 10px 0;
+  color: #000;
+}
+/* Optional: Hover effect for interactivity */
+.login-container:hover {
+backdrop-filter: blur(5px);/* Slightly stronger blur on hover */
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 
+    rgba(0, 0, 0, 0.2) 0px 6px 12px, 
+    rgba(0, 0, 0, 0.3) 0px 6px 12px; /* Enhanced shadow on hover */
+}
+.signup-header{
+  padding: 0 60px 0 20px;
+}
+.signup{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.get_role{
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.roll_car{
+  font-size: 56px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.login-card{
+  margin: 0;
+  padding: 0;
+}
+
+
+.role_button{
+  font-weight: 550;
+  letter-spacing: 2px;
+  background-color: #000;
+  color: white;
+ 
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  margin-top: 10px;
+}
+.role_button:hover{
+ transform: scale(1.1);
+ cursor: pointer;
+}
+
+
+
+/* Input fields */
+.login_input {
+
+  padding: 10px;
+  margin-bottom: 10px;
+ 
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+
+/* Submit button */
+.signup_button {
+  padding: 10px 20px; /* Slightly larger padding for better proportions */
+  color: #007bff;
+  border: 2px solid #007bff; /* Transparent border to avoid clipping */
+ /* Smoother rounded corners */
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: 550; /* Bold text for better readability */
+  margin-top: 16px; /* Increased margin for spacing */
+  background: transparent;
+
+   /* Gradient background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+.direct_to_login{
+  color: #fff;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.direct_to_login span{
+  color: #007bff;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 3px;
+  text-decoration: none;
+  
+}
+.toggle-password {
+  position: absolute;
+  right: px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #555;
+}
+.password-container1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 0;
+
+}
+.direct_to_login span:hover{
+  text-decoration: underline;
+
+}
+/* Hover effect */
+.signup_button:hover {
+  
+  background-color: #007bff;
+  color: #fff;
+  
+ transform: scale(1.2); /* Slightly larger size on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+
+ backdrop-filter: blur(0);/* Reverse gradient on hover */
+  -webkit-backdrop-filter: blur(5px);
+}
+
+
+

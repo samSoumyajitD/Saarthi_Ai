@@ -1,0 +1,86 @@
+/* General styling */
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 40px;
+  }
+  
+  .faq-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .faq-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .faq-header p {
+    color: #6b7280;
+  }
+  
+  /* Accordion */
+  .accordion {
+    margin-bottom: 40px;
+  }
+  
+  .accordion-item {
+    border: 1px solid #e5e7eb;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 16px;
+  }
+  
+  .accordion-trigger {
+    font-weight: bold;
+    cursor: pointer;
+    color: #1f2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .accordion-icon {
+    font-size: 20px;
+  }
+  
+  .accordion-content {
+    margin-top: 8px;
+    color: #4b5563;
+    font-size: 16px;
+    padding-right: 50px;
+  }
+  
+  /* Contact section */
+  .contact-section {
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .contact-section p {
+    color: #6b7280;
+    margin-bottom: 24px;
+  }
+  
+  .contact-btn {
+    background-color: transparent;
+    border: 1px solid #2563eb;
+    color: #2563eb;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-btn:hover {
+    background-color: #2563eb;
+    color: white;
+  }
+  

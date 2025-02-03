@@ -1,0 +1,327 @@
+/* General Form Styling */
+.profile-container {
+  border: 1px solid #9333ea;
+height: 500px;
+  margin: 40px auto 0 auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Progress Bar */
+.progress-bar {
+  width: 100%;
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 100%;
+  background:#9333ea ;
+  transition: width 0.4s ease-in-out;
+}
+
+/* Input Fields */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0;
+}
+
+.input-group label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 4px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+.input-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* Interest Section */
+/* Interest Section */
+.interest-section {
+ 
+  gap: 10px;
+  margin-top: 15px;
+}
+
+/* Input + Button Layout */
+.int-sec {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+/* Interest Input */
+.interest-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.interest-input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+  outline: none;
+}
+
+/* Add Button */
+.add-interest-btn {
+  background: transparent;
+  color: white;
+ 
+  font-size: 24px;
+  border: none;
+ 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-interest-btn:hover {
+ font-size: 30px;
+}
+/* Sidebar Styling */
+.sidebarpro{
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid #9333ea;
+  border-radius: 0;
+}
+.asideprU {
+  height: 500px;
+  width: 350px;
+border: 1px solid #9333ea;
+background-color: white;
+  padding: 0 0 0 0;
+  margin: 40px 60px ;
+  border-radius: 10px ;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+.sidebar-items{
+  margin: 20px ;
+  padding: 10px 8px;
+  text-align: right;
+}
+.asideprU h1 {
+  font-weight: 600;
+  font-size: 32px;
+  margin: 20px ;
+  padding: 8px;
+}
+
+.asideprU div {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  cursor: pointer;
+  padding: 8px;
+ 
+  transition: background-color 0.3s ease;
+}
+.sidebar-items div{
+background-color: #000;
+color: #fff;
+  border-radius: 6px;
+}
+
+.sidebar-items div:hover {
+  background-color: #9333ea;
+  color: white;
+}
+
+/* Active Sidebar Item */
+.asideprU div.active {
+  background-color: #9333ea;
+  color: white;
+}
+
+/* Interest List */
+.interest-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.Profile-Setup{
+  display: flex;
+  justify-content:space-between;
+ 
+}
+/* Interest Chip */
+.interest-chip {
+  background: #9333ea;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+  margin: 20px 0;
+}
+
+.interest-chip:hover {
+  background: #7a28b4;
+}
+
+/* Remove Button */
+.remove-interest-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.remove-interest-btn:hover {
+  color: #ffcccc;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .int-sec {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .interest-input {
+    width: 100%;
+  }
+
+  .add-interest-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+
+/* Button Group */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+
+
+/* Button Colors */
+.button-group button:first-child {
+  background: #95a5a6;
+  color: white;
+}
+
+.button-group button:first-child:hover {
+  background: #7f8c8d;
+}
+
+.button-group button:nth-child(2) {
+  background: #9333ea;
+  color: white;
+}
+
+.button-group button:nth-child(2):hover {
+  background: #7a28b4;
+}
+
+.button-group button:last-child {
+  background: #9333ea;
+  color: white;
+}
+
+.button-group button:last-child:hover {
+  background: #7a28b4;
+}
+
+/* Loading and Error Messages */
+.loading-text,
+.error-text {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+.loading-text {
+  color: #3498db;
+}
+.protbbhbh{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-text {
+  color: #e74c3c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .profile-container {
+    padding: 15px;
+  }
+
+  .profile-heading {
+    font-size: 20px;
+  }
+
+  .button-group button {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+
+  .interest-section input {
+    width: 100%;
+  }
+}

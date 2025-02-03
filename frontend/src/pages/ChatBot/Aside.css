@@ -1,0 +1,39 @@
+.aside-container {
+    width: 70%;
+    background: linear-gradient(135deg, #f8fafc, #e5e7eb);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    text-align: left;
+    margin-top: 60px;
+  }
+  
+  .aside-container h2 {
+    font-size: 22px;
+    color: #7a28b4;
+    margin-bottom: 12px;
+  }
+  
+  .aside-content {
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-list li {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .quote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #9333ea;
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+  

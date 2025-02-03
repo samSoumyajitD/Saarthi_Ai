@@ -1,0 +1,153 @@
+/* Main AI Container */
+.ai-container {
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  /* Sidebar (Improved UI) */
+  .sidebar {
+    width: 70%;
+   /* Takes 60% of the screen */
+    background: linear-gradient(135deg, #f8fafc, #e5e7eb);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin-top: 60px;
+  }
+  
+  .sidebar h2 {
+    font-size: 22px;
+    color: #7a28b4;
+    margin-bottom: 12px;
+  }
+  
+  .sidebar .instructions,
+  .sidebar .motivation {
+    font-size: 18px;
+    font-weight: bold;
+    color: #5a5a5a;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-list li {
+    font-size: 16px;
+    padding: 8px 0;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .sidebar-list li:hover {
+    transform: translateX(5px);
+    color: #7a28b4;
+  }
+  
+  /* Quote Styling */
+  .quote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #9333ea;
+    padding-left: 15px;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+  
+  .quote span {
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    width: 40%;  /* Takes 40% of the screen */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Header */
+  .headerquiz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+  }
+  
+  /* Logo */
+  .logoquiz {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    font-family: "DM Sans", sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  /* User Profile Icon */
+  .iconquiz {
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9333ea;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .iconquiz:hover {
+    background-color: #7a28b4;
+  }
+  
+  .iconquiz a {
+    text-decoration: none;
+    color: #fff;
+  }
+  /* Chatbot.css */
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #9333ea; /* Change color if needed */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-button:hover {
+    background-color: #7a28b4;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .ai-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .main-content {
+      width: 100%;
+    }
+  }
+  

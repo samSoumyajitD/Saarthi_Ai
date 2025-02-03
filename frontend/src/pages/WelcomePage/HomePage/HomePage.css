@@ -1,0 +1,126 @@
+
+.career-herofc {
+ 
+    margin: 0 auto;
+    padding: 80px 0 0 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contentfc {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .empower-textfc {
+  
+    font-size: 16px;
+    color: gray;
+    font-weight: 550;
+  }
+  
+  .titlewc {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .lmr button{
+    width: 100px;
+    height:50px;
+    justify-content: center;
+    background-color: #f9f9f9;
+  }
+  .lmr button:hover{
+    background-color: #ddd;
+  }
+  .desctfc{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+
+  }
+  .descriptionfc {
+ 
+ margin: 60px 0;
+
+  animation: floatUpDown 2s infinite ease-in-out;
+    color: gray;
+   
+  }
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateX(-50%) translateY(0);
+    }
+    50% {
+      transform: translateX(-50%) translateY(-10px);
+    }
+  }
+  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #fff;
+    border-bottom: 2px solid #000;
+  }
+  
+  .logo {
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 2px;
+  }
+  .login-btns button {
+
+    background-color: transparent;
+    color: #333;
+    margin:0 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  
+    
+  }
+  .nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #1f8ed7;
+  }
+  .login-btns {
+    display: flex;
+    gap: 10px; 
+}
+
+
+  .menu-btn {
+    
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #333;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .menu-btn:hover {
+    background-color: #000;
+    color: #fff;
+  }

@@ -1,0 +1,53 @@
+.containersub {
+    padding: 60px 50px;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 48px;
+    align-items: start;
+  }
+  
+  @media (min-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .highlight {
+    font-size: 20px;
+    font-weight: 600;
+    color: #555;
+  }
+  
+  .title {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+  }
+  .description1 {
+
+    text-align: justify;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+  }
+  .description1 p{
+    margin: 0;
+  }
+  @media (min-width: 768px) {
+    .title {
+      font-size: 48px;
+    }
+  }
+  
+  
+  
+  
