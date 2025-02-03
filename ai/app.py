@@ -48,7 +48,7 @@ def generate_roadmap_api(user_id):
         retriever = vectorstore.as_retriever()
 
         # Initialize AI model
-        chat_model = setup_ai_model("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")
+        chat_model = setup_ai_model("GROQ_API_KEY")
 
         # Create RetrievalQA chain
         qa = RetrievalQA.from_chain_type(
