@@ -21,7 +21,7 @@ Traditional learning platforms force users into rigid curricula. SaarthiAI revol
 |------------------------|-----------------------------------------------------------------------------|
 | **Roadmap Builder**     | Generates personalized learning paths using FAISS + Hugging Face embeddings |
 | **Adaptive Quizzes**    | AI-generated assessments that evolve with user performance                  |
-| **24/7 AI Tutor**       | Context-aware chatbot powered by LangChain and RAG                          |
+| **24/7 AI Tutor**       | AI-Powered chatbot for 24/7 support                        |
 | **Progress Analytics**  | Visual dashboards tracking skill development and career readiness           |
 
 ## 🛠️ Tech Stack
