@@ -99,7 +99,7 @@ def save_updated_roadmap(updated_roadmap, filename="updated_roadmap.txt"):
 
 # Main execution
 def main():
-    api_key = "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"
+    api_key = "GROQ_API_KEY"
     chat_model = setup_ai_model(api_key)
 
     try:
