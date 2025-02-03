@@ -10,7 +10,7 @@ client = pymongo.MongoClient(MONGO_URI)
 db = client["Amdoc"]
 roadmap_collection = db["Roadmap"]
 quiz_collection = db["KnowledgeAssessment"]
-api_key='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'
+api_key='GROQ_API_KEY'
 # AI Model Setup
 def setup_ai_model(api_key):
     return ChatGroq(temperature=0.2, groq_api_key=api_key, model_name="mixtral-8x7b-32768")
@@ -98,7 +98,7 @@ def store_quiz_in_db(user_id, quiz_data):
 
 # Main Function
 def main():
-    api_key = "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"  # Replace with your actual API key
+    api_key = "GROQ_API_KEY"  # Replace with your actual API key
     chat_model = setup_ai_model(api_key)
 
     # Fetch roadmap from MongoDB
